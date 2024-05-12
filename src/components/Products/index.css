@@ -1,0 +1,51 @@
+.product-list {
+  display: grid;
+  gap: 20px;
+}
+
+.product {
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h2 {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.productDesc {
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: #888792;
+  margin-bottom: 0%;
+}
+
+.left {
+  margin-left: auto;
+  margin-top: auto;
+  cursor: pointer;
+}

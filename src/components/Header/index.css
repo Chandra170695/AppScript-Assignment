@@ -1,0 +1,80 @@
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+.nav-logo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nav-logo-menu-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-logo-menu-item {
+  padding-right: 20px;
+}
+
+.logo-text {
+  margin-left: 0;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 0px;
+}
+.nav-menu-section {
+  width: 65%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.website-logo {
+  width: 120px;
+}
+
+.dropDownRight {
+  margin-right: 2px;
+  font-weight: 800;
+}
+
+.logoLeft {
+  width: 244px;
+}
+.nav-menu-item {
+  text-decoration: none;
+  color: black;
+}
